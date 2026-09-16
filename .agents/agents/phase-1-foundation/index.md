@@ -18,68 +18,74 @@ These are **blocking dependencies** for Phases 2, 3, and 4. Nothing else can pro
 ## Agents in This Phase
 
 ### 1. Storage & Backup Agent
-**Week**: 1-2 | **Skills**: 7 | **Validation**: ~20 | **Constraints**: ~18
+**Week**: 1-2 | **Skills**: 6 | **Validation**: ~97 | **Constraints**: 12
+
+**Status**: 🟡 TODO (Phase 1, Week 1-2) | **Documentation**: [Agent Skills](./STORAGE_BACKUP_AGENT_SKILLS.md) | [Validation](./STORAGE_BACKUP_VALIDATION_CHECKLIST.md)
 
 **Key Responsibilities**:
-- Backup scheduling & automation
-- Backup verification & integrity
-- Disaster recovery procedures
-- Storage capacity planning
-- Retention policies
-- Restore testing
-- Multi-target backups (local + remote)
+- Backup infrastructure design & setup (multi-target architecture with hot/warm/cold tiers)
+- Automated backup orchestration (scheduled backups for all components with dependency management)
+- Backup verification & testing (integrity checks, monthly restore simulations, quarterly full tests)
+- Disaster recovery coordination (procedures, runbooks, cross-system recovery)
+- Backup storage management (deduplication, compression, lifecycle policies, geographic distribution)
+- Disaster recovery runbooks & automation (executable workflows, manual procedures, dashboards)
 
 **Integration Dependencies**:
-- Docker Agent (volume snapshots)
-- Samba Agent (file share backups)
-- Network Infrastructure Agent (backup routing)
-- Prometheus Agent (backup metrics)
-- WireGuard Agent (remote access)
-- Audit & Validation Agent (validation)
+- Upstream: None (foundational Phase 1 component - no dependencies)
+- Downstream: Security & Secrets Agent (vault backups), Database Agent, Docker Agent, Configuration Management, all 22+ other agents
 
 **Acceptance Criteria**:
-- [ ] Backup scheduling verified
-- [ ] Restore procedures tested
-- [ ] RTO/RPO targets defined & met
-- [ ] 20 validation items defined
-- [ ] 18 constraints documented
-- [ ] All integrations validated
+- ✅ Skills documented: 6 comprehensive skills with procedures
+- ✅ Validation procedures: 97 checklist items across pre-deployment, skills, integration, operational, security, compliance, DR
+- ✅ Architecture defined: Multi-target (primary/secondary/cold), encryption, HA cluster
+- ✅ Operations documented: Startup/shutdown/maintenance procedures
+- ✅ Troubleshooting guide: 6+ common issues with root causes and solutions
+- ✅ Monitoring: Key metrics, alert rules, dashboards
+- ✅ Team contacts: Escalation paths and on-call procedures
+- ✅ Compliance: SOC2, ISO27001, PCI-DSS, GDPR compliance controls
+
+**RTO/RPO Targets**:
+- Critical systems: RTO 30 min, RPO 5 min
+- Core systems: RTO 1 hour, RPO 15 min
+- Standard systems: RTO 4 hours, RPO 1 hour
 
 **Risks if Skipped**: Permanent data loss on failure → ❌ CRITICAL
 
 ---
 
 ### 2. Security & Secrets Agent
-**Week**: 2-3 | **Skills**: 8 | **Validation**: ~24 | **Constraints**: ~22
+**Week**: 2-3 | **Skills**: 6 | **Validation**: ~97 | **Constraints**: 15
+
+**Status**: 🟡 TODO (Phase 1, Week 2-3) | **Documentation**: [Agent Skills](./SECURITY_SECRETS_AGENT_SKILLS.md) | [Validation](./SECURITY_SECRETS_VALIDATION_CHECKLIST.md)
 
 **Key Responsibilities**:
-- Secrets vault management
-- Certificate lifecycle
-- Key rotation procedures
-- Credential auditing
-- Secrets distribution
-- Emergency rotation (breach response)
-- MFA/2FA setup
-- SSH key management
+- Secret management & vault setup (centralized credential storage with backup)
+- Encryption key management (key lifecycle, rotation, HSM integration)
+- SSH key & certificate management (authentication infrastructure)
+- Access control policies (RBAC with fine-grained permissions)
+- Compliance & audit logging (regulatory compliance and forensics)
+- Security incident response (credential compromise, key rotation)
 
 **Integration Dependencies**:
-- Docker Agent (container secrets)
-- WireGuard Agent (VPN keys)
-- Network Agent (firewall API keys)
-- Samba Agent (SMB passwords)
-- Audit & Validation Agent (audit logging)
-- Jumpbox Agent (SSH keys)
+- Upstream: Storage & Backup Agent (vault data protection)
+- Downstream: All 22 other agents depend on this for authentication/encryption
 
 **Acceptance Criteria**:
-- [ ] Secrets vault operational
-- [ ] All credentials rotated
-- [ ] MFA enabled for admin access
-- [ ] Key rotation automated
-- [ ] 24 validation items defined
-- [ ] 22 constraints documented
-- [ ] All hardcoded secrets removed
+- ✅ Skills documented: 6 comprehensive skills with procedures
+- ✅ Validation procedures: 97 checklist items across pre-deployment, skills, integration, operational, security, compliance, DR
+- ✅ Architecture defined: HashiCorp Vault HA cluster with 3+ nodes
+- ✅ Operations documented: Startup/shutdown/unsealing procedures
+- ✅ Troubleshooting guide: 9+ issue scenarios with root causes
+- ✅ Monitoring: 8 key metrics, SEV1/2/3 alert rules
+- ✅ Team contacts: Escalation paths and on-call procedures
+- ✅ Compliance: SOC2, ISO27001, PCI-DSS compliance controls
 
-**Risks if Skipped**: Credential compromise → ❌ CRITICAL
+**RTO/RPO Targets**:
+- Vault availability: 99.99% (4 nines)
+- Secret delivery: <100ms latency
+- Key rotation: 0-downtime during rotation
+
+**Risks if Skipped**: Credential compromise, authentication failure → ❌ CRITICAL
 
 ---
 
@@ -87,37 +93,53 @@ These are **blocking dependencies** for Phases 2, 3, and 4. Nothing else can pro
 
 ```
 Week 1-2: Storage & Backup Agent
-  ├─ Design backup strategy
-  ├─ Test backup procedures
-  ├─ Verify restore procedures
-  ├─ Define retention policies
-  └─ Validate with Audit Agent
-                ↓
-Week 2-3: Security & Secrets Agent (can overlap slightly)
-  ├─ Set up secrets vault
-  ├─ Migrate all credentials
-  ├─ Enable MFA
-  ├─ Configure key rotation
-  └─ Validate with Audit Agent
+  ├─ Design multi-target backup architecture (hot/warm/cold tiers)
+  ├─ Configure backup targets (primary S3, secondary off-site, cold storage)
+  ├─ Implement automated backup orchestration (db/vault/config schedules)
+  ├─ Set up backup verification (integrity checks, restore testing)
+  ├─ Configure disaster recovery procedures
+  ├─ Create recovery runbooks (automated + manual)
+  └─ Validate all 97 checklist items
+                ↓ (Storage & Backup ready for use)
+Week 2-3: Security & Secrets Agent (overlaps with Week 2 of Storage & Backup)
+  ├─ Deploy Vault cluster (3+ nodes, HA, backup integration)
+  ├─ Initialize encryption keys (master key + backup key separation)
+  ├─ Configure authentication/authorization (AppRole, LDAP, etc.)
+  ├─ Implement audit logging (immutable, centralized)
+  ├─ Set up credential rotation (passwords, API keys, certificates)
+  ├─ Create recovery procedures (unsealing, DR scenario)
+  └─ Validate all 97 checklist items
                 ↓
 Week 3: Phase 1 Complete
-  ├─ Both agents validated
-  ├─ All tests passing
-  ├─ Ready for Phase 2
-  └─ Begin Phase 2 planning
+  ├─ Both agents fully operational and validated
+  ├─ Cross-agent integration tested (vault backup working)
+  ├─ All 191 validation items passing
+  ├─ Monitoring and alerting configured
+  ├─ Team trained on operations & procedures
+  ├─ Phase 1 master validation signed off
+  └─ Phase 2 planning begins
 ```
+
+**Critical Path Note**: Storage & Backup Agent (Week 1) MUST complete before Security & Secrets Agent can finalize (Week 2-3), as vault backup capability is required for vault readiness.
 
 ---
 
 ## Success Criteria
 
 ✅ **Phase 1 Complete When**:
-- [x] Storage & Backup Agent fully operational
-- [x] Security & Secrets Agent fully operational
-- [x] All 7+8=15 agents' acceptance criteria met
-- [x] Audit Agent validates both agents
-- [x] Master index updated
-- [x] Zero manual workarounds needed
+- [x] Storage & Backup Agent fully documented (1,356 lines)
+- [x] Storage & Backup validation checklist complete (1,145 lines)
+- [x] Security & Secrets Agent fully documented (1,060 lines)
+- [x] Security & Secrets validation checklist complete (819 lines)
+- [ ] Storage & Backup Agent deployed and operational
+- [ ] Security & Secrets Agent deployed and operational
+- [ ] All 97 Storage & Backup validation items passing
+- [ ] All 97 Security & Secrets validation items passing
+- [ ] Cross-agent integration tested (vault backup → storage)
+- [ ] Monitoring and alerting configured for both agents
+- [ ] Team trained on operations and DR procedures
+- [ ] Phase 1 master validation signed off by infrastructure lead
+- [ ] Phase 2 planning and dependencies mapped
 - [x] Procedures documented & tested
 
 ---
