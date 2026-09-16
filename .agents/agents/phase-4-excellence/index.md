@@ -251,10 +251,10 @@ Week 13+: Phase 4 Complete
 
 ## Quick Links
 
-- [Incident Response Agent Template](./INCIDENT_RESPONSE_AGENT_SKILLS.md) (to be created)
-- [Performance Optimization Agent Template](./PERFORMANCE_OPTIMIZATION_AGENT_SKILLS.md) (to be created)
-- [Cost Optimization Agent Template](./COST_OPTIMIZATION_AGENT_SKILLS.md) (to be created)
-- [Documentation Agent Template](./DOCUMENTATION_KNOWLEDGE_BASE_AGENT_SKILLS.md) (to be created)
+- [Incident Response Agent Placeholder](./INCIDENT_RESPONSE_AGENT.md)
+- [Performance Optimization Agent Placeholder](./PERFORMANCE_OPTIMIZATION_AGENT.md)
+- [Cost Optimization Agent Placeholder](./COST_OPTIMIZATION_AGENT.md)
+- [Documentation Agent Placeholder](./DOCUMENTATION_AGENT.md)
 - [AGENT_ROADMAP.md](../../AGENT_ROADMAP.md)
 - [Phase 3 (Prerequisites)](../phase-3-operations/index.md)
 

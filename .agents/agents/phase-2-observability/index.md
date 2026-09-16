@@ -247,10 +247,10 @@ Week 6: Phase 2 Complete
 
 ## Quick Links
 
-- [Logging Agent Template](./LOGGING_AGENT_SKILLS.md) (to be created)
-- [Service Mesh Agent Template](./SERVICE_MESH_GATEWAY_AGENT_SKILLS.md) (to be created)
-- [Jumpbox Agent Template](./JUMPBOX_AGENT_SKILLS.md) (to be created)
-- [Pi-hole Agent Template](./PIHOLE_AGENT_SKILLS.md) (to be created)
+- [Logging Agent Placeholder](./LOGGING_AGENT.md)
+- [Service Mesh Agent Placeholder](./SERVICE_MESH_AGENT.md)
+- [Jumpbox Agent Placeholder](./JUMPBOX_AGENT.md)
+- [Pi-hole Agent Placeholder](./PIHOLE_AGENT.md)
 - [AGENT_ROADMAP.md](../../AGENT_ROADMAP.md)
 - [Phase 1 (Prerequisites)](../phase-1-foundation/index.md)
 - [Phase 3 (Next)](../phase-3-operations/index.md)

@@ -294,11 +294,11 @@ Week 11: Phase 3 Complete
 
 ## Quick Links
 
-- [Configuration Management Agent Template](./CONFIG_MGMT_AGENT_SKILLS.md) (to be created)
-- [Capacity Planning Agent Template](./CAPACITY_PLANNING_AGENT_SKILLS.md) (to be created)
-- [Disaster Recovery Agent Template](./DISASTER_RECOVERY_AGENT_SKILLS.md) (to be created)
-- [Transmission Protocol Agent Template](./TRANSMISSION_PROTOCOL_AGENT_SKILLS.md) (to be created)
-- [CI/CD Agent Template](./CICD_DEPLOYMENT_AGENT_SKILLS.md) (to be created)
+- [Configuration Management Agent Placeholder](./CONFIGURATION_MANAGEMENT_AGENT.md)
+- [Capacity Planning Agent Placeholder](./CAPACITY_PLANNING_AGENT.md)
+- [Disaster Recovery Agent Placeholder](./DISASTER_RECOVERY_AGENT.md)
+- [Transmission Protocol Agent Placeholder](./TRANSMISSION_PROTOCOL_AGENT.md)
+- [CI/CD Pipeline Agent Placeholder](./CICD_PIPELINE_AGENT.md)
 - [AGENT_ROADMAP.md](../../AGENT_ROADMAP.md)
 - [Phase 2 (Prerequisites)](../phase-2-observability/index.md)
 - [Phase 4 (Next)](../phase-4-excellence/index.md)
