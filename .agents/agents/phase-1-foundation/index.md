@@ -20,7 +20,7 @@ These are **blocking dependencies** for Phases 2, 3, and 4. Nothing else can pro
 ### 1. Storage & Backup Agent
 **Week**: 1-2 | **Skills**: 6 | **Validation**: ~97 | **Constraints**: 12
 
-**Status**: 🟡 TODO (Phase 1, Week 1-2) | **Documentation**: [Agent Skills](./STORAGE_BACKUP_AGENT_SKILLS.md) | [Validation](./STORAGE_BACKUP_VALIDATION_CHECKLIST.md)
+**Status**: 🟡 TODO (Phase 1, Week 1-2) | **Documentation**: [Agent Skills](./STORAGE_BACKUP_AGENT_SKILLS.md) | [Validation](./STORAGE_BACKUP_VALIDATION_CHECKLIST.md) | [Deployment](./STORAGE_BACKUP_DEPLOYMENT_PROCEDURES.md)
 
 **Key Responsibilities**:
 - Backup infrastructure design & setup (multi-target architecture with hot/warm/cold tiers)
@@ -56,7 +56,7 @@ These are **blocking dependencies** for Phases 2, 3, and 4. Nothing else can pro
 ### 2. Security & Secrets Agent
 **Week**: 2-3 | **Skills**: 6 | **Validation**: ~97 | **Constraints**: 15
 
-**Status**: 🟡 TODO (Phase 1, Week 2-3) | **Documentation**: [Agent Skills](./SECURITY_SECRETS_AGENT_SKILLS.md) | [Validation](./SECURITY_SECRETS_VALIDATION_CHECKLIST.md)
+**Status**: 🟡 TODO (Phase 1, Week 2-3) | **Documentation**: [Agent Skills](./SECURITY_SECRETS_AGENT_SKILLS.md) | [Validation](./SECURITY_SECRETS_VALIDATION_CHECKLIST.md) | [Deployment](./SECURITY_SECRETS_DEPLOYMENT_PROCEDURES.md)
 
 **Key Responsibilities**:
 - Secret management & vault setup (centralized credential storage with backup)
@@ -129,8 +129,10 @@ Week 3: Phase 1 Complete
 ✅ **Phase 1 Complete When**:
 - [x] Storage & Backup Agent fully documented (1,356 lines)
 - [x] Storage & Backup validation checklist complete (1,145 lines)
+- [x] Storage & Backup deployment procedures complete (1,200+ lines)
 - [x] Security & Secrets Agent fully documented (1,060 lines)
 - [x] Security & Secrets validation checklist complete (819 lines)
+- [x] Security & Secrets deployment procedures complete (1,400+ lines)
 - [ ] Storage & Backup Agent deployed and operational
 - [ ] Security & Secrets Agent deployed and operational
 - [ ] All 97 Storage & Backup validation items passing
@@ -140,7 +142,7 @@ Week 3: Phase 1 Complete
 - [ ] Team trained on operations and DR procedures
 - [ ] Phase 1 master validation signed off by infrastructure lead
 - [ ] Phase 2 planning and dependencies mapped
-- [x] Procedures documented & tested
+- [x] All documentation & procedures complete (5,700+ lines)
 
 ---
 
