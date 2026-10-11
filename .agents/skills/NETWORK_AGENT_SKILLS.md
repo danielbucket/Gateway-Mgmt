@@ -1,5 +1,8 @@
 # Network Management Agent Skills
 
+> ⚠️ **Deprecated mirror file**.
+> Canonical source: `.agents/agents/operational/infrastructure/NETWORK_AGENT_SKILLS.md`. Update and reference the canonical file only.
+
 ## Overview
 This document defines the capabilities and responsibilities of the Network Management Agent for the gateway-mgmt infrastructure. The agent manages on-premise network infrastructure including firewall rules, routing, DNS, VPN connectivity, and monitoring.
 

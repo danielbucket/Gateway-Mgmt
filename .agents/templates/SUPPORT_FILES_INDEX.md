@@ -212,7 +212,7 @@ This index documents all templates, procedures, examples, and documentation avai
 **Related**:
 - [Agent Skills Template](../templates/AGENT_SKILLS_TEMPLATE.md) - Skills to implement
 - [Validation Checklist Template](../templates/VALIDATION_CHECKLIST_TEMPLATE.md) - Validation in Phase 4
-- [Incident Response Procedures](INCIDENT_RESPONSE_PROCEDURES.md) - If deployment issue occurs
+- [Incident Response Procedures](../procedures/INCIDENT_RESPONSE_PROCEDURES.md) - If deployment issue occurs
 
 ---
 
@@ -262,7 +262,7 @@ This index documents all templates, procedures, examples, and documentation avai
 - Escalation chain (engineer → lead → manager → CTO)
 
 **Related**:
-- [Maintenance Procedures](MAINTENANCE_PROCEDURES.md) - Ongoing monitoring to prevent
+- [Maintenance Procedures](../procedures/MAINTENANCE_PROCEDURES.md) - Ongoing monitoring to prevent
 - [Agent Skills Template](../templates/AGENT_SKILLS_TEMPLATE.md) - Runbook references
 
 ---
@@ -312,7 +312,7 @@ This index documents all templates, procedures, examples, and documentation avai
 - Clear team responsibility matrix
 
 **Related**:
-- [Incident Response Procedures](INCIDENT_RESPONSE_PROCEDURES.md) - For critical issues
+- [Incident Response Procedures](../procedures/INCIDENT_RESPONSE_PROCEDURES.md) - For critical issues
 - [Agent Skills Template](../templates/AGENT_SKILLS_TEMPLATE.md) - Agent-specific procedures
 
 ---
@@ -481,22 +481,22 @@ Annually (designated date):
 - [Validation Checklist Template](VALIDATION_CHECKLIST_TEMPLATE.md) - Ensure quality
 
 ### For DevOps/Operations
-- [Deployment Procedures](procedures/DEPLOYMENT_PROCEDURES.md) - Deploy agents
-- [Maintenance Procedures](procedures/MAINTENANCE_PROCEDURES.md) - Keep running
-- [Incident Response Procedures](procedures/INCIDENT_RESPONSE_PROCEDURES.md) - Handle issues
+- [Deployment Procedures](../procedures/DEPLOYMENT_PROCEDURES.md) - Deploy agents
+- [Maintenance Procedures](../procedures/MAINTENANCE_PROCEDURES.md) - Keep running
+- [Incident Response Procedures](../procedures/INCIDENT_RESPONSE_PROCEDURES.md) - Handle issues
 
 ### For Product/Project Managers
 - [AGENT_ROADMAP.md](../AGENT_ROADMAP.md) - Implementation timeline
 - [AGENT_ECOSYSTEM_INDEX.md](../AGENT_ECOSYSTEM_INDEX.md) - Ecosystem status
-- Quarterly tasks in [Maintenance Procedures](procedures/MAINTENANCE_PROCEDURES.md)
+- Quarterly tasks in [Maintenance Procedures](../procedures/MAINTENANCE_PROCEDURES.md)
 
 ### For Security
 - Security sections in [Agent Skills Template](AGENT_SKILLS_TEMPLATE.md)
 - [Validation Checklist Template](VALIDATION_CHECKLIST_TEMPLATE.md) - Security validation
-- Monthly security audit in [Maintenance Procedures](procedures/MAINTENANCE_PROCEDURES.md)
+- Monthly security audit in [Maintenance Procedures](../procedures/MAINTENANCE_PROCEDURES.md)
 
 ### For Entire Team
-- [Incident Response Procedures](procedures/INCIDENT_RESPONSE_PROCEDURES.md) - How we respond
+- [Incident Response Procedures](../procedures/INCIDENT_RESPONSE_PROCEDURES.md) - How we respond
 - Examples (planned) - Real-world guidance
 - Glossary (planned) - Terminology
 

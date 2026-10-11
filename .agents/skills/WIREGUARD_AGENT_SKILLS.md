@@ -1,5 +1,8 @@
 # WireGuard Agent Skills
 
+> ⚠️ **Deprecated mirror file**.
+> Canonical source: `.agents/agents/operational/services/WIREGUARD_AGENT_SKILLS.md`. Update and reference the canonical file only.
+
 ## Overview
 This document defines the capabilities and responsibilities of the WireGuard Agent for the gateway-mgmt infrastructure. The agent manages VPN configuration, peer connectivity, key rotation, and network tunneling across physical machines and Docker containers. The agent operates in a hub-and-spoke topology where a gateway server (24.204.72.65) manages a local mesh network via `wg0` interface, chains to external Mullvad VPN via `wg-mullvad`, and coordinates with Docker Swarm for container-level VPN access and jumpbox tunneling. The agent monitors peer health, auto-recovers stale connections, and integrates with Prometheus for metrics and alerting.
 

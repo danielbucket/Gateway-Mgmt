@@ -1,5 +1,8 @@
 # Prometheus Agent Skills
 
+> ⚠️ **Deprecated mirror file**.
+> Canonical source: `.agents/agents/operational/observability/PROMETHEUS_AGENT_SKILLS.md`. Update and reference the canonical file only.
+
 ## Overview
 This document defines the capabilities and responsibilities of the Prometheus Agent for the gateway-mgmt infrastructure. The agent manages metrics collection, alerting rules, data integrity, and backup/restore operations for the Prometheus monitoring system. The agent monitors Docker Swarm containers, network infrastructure (WireGuard peers, VPN health, DNS resolution), system metrics via node_exporter, and manages Alertmanager alert rules. The agent provides read-only access to metrics via API and web UI, restricted to the internal network (24.204.72.64/26).
 

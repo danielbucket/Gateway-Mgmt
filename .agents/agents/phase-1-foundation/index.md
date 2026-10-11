@@ -179,7 +179,7 @@ Week 3: Phase 1 Complete
 - [Security & Secrets Agent Template](./SECURITY_SECRETS_AGENT_SKILLS.md) (to be created)
 - [AGENT_ROADMAP.md](../../AGENT_ROADMAP.md)
 - [AGENT_ECOSYSTEM_INDEX.md](../../AGENT_ECOSYSTEM_INDEX.md)
-- [Pre-Deployment Checklist](../../procedures/deployment/pre-deployment-checklist.md)
+- [Deployment Procedures](../../procedures/DEPLOYMENT_PROCEDURES.md)
 - [Agent Skills Template](../../templates/AGENT_SKILLS_TEMPLATE.md)
 
 ---

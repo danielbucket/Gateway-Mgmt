@@ -1,5 +1,8 @@
 # NETWORK INFRASTRUCTURE AGENT SKILLS
 
+> ⚠️ **Deprecated mirror file**.
+> Canonical source: `.agents/agents/operational/infrastructure/NETWORK_INFRASTRUCTURE_AGENT_SKILLS.md`. Update and reference the canonical file only.
+
 **Agent Purpose:**  
 Serve as the authoritative source of truth for all infrastructure topology, node addressing, and service-to-IP mappings. This agent ensures consistent documentation of network infrastructure across all operational agents, enables seamless IP scheme migrations, and prevents addressing inconsistencies that could compromise system reliability.
 

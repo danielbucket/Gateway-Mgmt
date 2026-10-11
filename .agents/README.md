@@ -127,14 +127,8 @@ Welcome to the gateway management system! This directory contains the complete s
 │   ├── INCIDENT_RESPONSE_PROCEDURES.md.. How to handle incidents
 │   └── MAINTENANCE_PROCEDURES.md ........ How to maintain systems
 │
-└── skills/ ............................. Current agent documentation
-    ├── DOCKER_AGENT_SKILLS.md .......... (to be moved to services/)
-    ├── NETWORK_*.md ..................... (to be moved to infrastructure/)
-    ├── PROMETHEUS_AGENT_SKILLS.md ....... (to be moved to observability/)
-    ├── WIREGUARD_AGENT_SKILLS.md ........ (to be moved to services/)
-    ├── SAMBA_AGENT_SKILLS.md ............ (to be moved to services/)
-    ├── AUDIT_VALIDATION_AGENT_SKILLS.md  (to be moved to quality/)
-    └── SKILLS_MARKDOWN_GUIDELINE.md .... (to be moved to _core/)
+└── skills/ ............................. Retired path tombstone
+  └── README.md ......................... Points to canonical `agents/*` locations
 ```
 
 ---

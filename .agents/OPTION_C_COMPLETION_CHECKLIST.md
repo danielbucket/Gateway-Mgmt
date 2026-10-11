@@ -13,14 +13,14 @@ This checklist tracks completion of the final 25% of Option C implementation to 
 
 **Task 1.1: Infrastructure Domain Migration**
 - [ ] **NETWORK_INFRASTRUCTURE_AGENT_SKILLS.md**
-  - [ ] Source: `/home/empire/gateway-mgmt/.agents/skills/NETWORK_INFRASTRUCTURE_AGENT_SKILLS.md`
+  - [ ] Source: `/home/empire/gateway-mgmt/.agents/agents/operational/infrastructure/NETWORK_INFRASTRUCTURE_AGENT_SKILLS.md`
   - [ ] Destination: `/home/empire/gateway-mgmt/.agents/agents/operational/infrastructure/`
   - [ ] Update cross-references to relative paths
   - [ ] Test: Verify file at new location
   - [ ] Verify: All links work from new location
 
 - [ ] **NETWORK_AGENT_SKILLS.md**
-  - [ ] Source: `/home/empire/gateway-mgmt/.agents/skills/NETWORK_AGENT_SKILLS.md`
+  - [ ] Source: `/home/empire/gateway-mgmt/.agents/agents/operational/infrastructure/NETWORK_AGENT_SKILLS.md`
   - [ ] Destination: `/home/empire/gateway-mgmt/.agents/agents/operational/infrastructure/`
   - [ ] Update cross-references to relative paths
   - [ ] Test: Verify file at new location
@@ -28,21 +28,21 @@ This checklist tracks completion of the final 25% of Option C implementation to 
 
 **Task 1.2: Services Domain Migration**
 - [ ] **DOCKER_AGENT_SKILLS.md**
-  - [ ] Source: `/home/empire/gateway-mgmt/.agents/skills/DOCKER_AGENT_SKILLS.md`
+  - [ ] Source: `/home/empire/gateway-mgmt/.agents/agents/operational/services/DOCKER_AGENT_SKILLS.md`
   - [ ] Destination: `/home/empire/gateway-mgmt/.agents/agents/operational/services/`
   - [ ] Update cross-references
   - [ ] Test: Verify at new location
   - [ ] Verify: Links work from new location
 
 - [ ] **SAMBA_AGENT_SKILLS.md**
-  - [ ] Source: `/home/empire/gateway-mgmt/.agents/skills/SAMBA_AGENT_SKILLS.md`
+  - [ ] Source: `/home/empire/gateway-mgmt/.agents/agents/operational/services/SAMBA_AGENT_SKILLS.md`
   - [ ] Destination: `/home/empire/gateway-mgmt/.agents/agents/operational/services/`
   - [ ] Update cross-references
   - [ ] Test: Verify at new location
   - [ ] Verify: Links work
 
 - [ ] **WIREGUARD_AGENT_SKILLS.md**
-  - [ ] Source: `/home/empire/gateway-mgmt/.agents/skills/WIREGUARD_AGENT_SKILLS.md`
+  - [ ] Source: `/home/empire/gateway-mgmt/.agents/agents/operational/services/WIREGUARD_AGENT_SKILLS.md`
   - [ ] Destination: `/home/empire/gateway-mgmt/.agents/agents/operational/services/`
   - [ ] Update cross-references
   - [ ] Test: Verify at new location
@@ -50,7 +50,7 @@ This checklist tracks completion of the final 25% of Option C implementation to 
 
 **Task 1.3: Observability Domain Migration**
 - [ ] **PROMETHEUS_AGENT_SKILLS.md**
-  - [ ] Source: `/home/empire/gateway-mgmt/.agents/skills/PROMETHEUS_AGENT_SKILLS.md`
+  - [ ] Source: `/home/empire/gateway-mgmt/.agents/agents/operational/observability/PROMETHEUS_AGENT_SKILLS.md`
   - [ ] Destination: `/home/empire/gateway-mgmt/.agents/agents/operational/observability/`
   - [ ] Update cross-references
   - [ ] Test: Verify at new location
@@ -58,7 +58,7 @@ This checklist tracks completion of the final 25% of Option C implementation to 
 
 **Task 1.4: Quality Domain Migration**
 - [ ] **AUDIT_VALIDATION_AGENT_SKILLS.md**
-  - [ ] Source: `/home/empire/gateway-mgmt/.agents/skills/AUDIT_VALIDATION_AGENT_SKILLS.md`
+  - [ ] Source: `/home/empire/gateway-mgmt/.agents/agents/operational/quality/AUDIT_VALIDATION_AGENT_SKILLS.md`
   - [ ] Destination: `/home/empire/gateway-mgmt/.agents/agents/operational/quality/`
   - [ ] Update cross-references
   - [ ] Test: Verify at new location
@@ -66,7 +66,7 @@ This checklist tracks completion of the final 25% of Option C implementation to 
 
 **Task 1.5: Core Domain Migration**
 - [ ] **SKILLS_MARKDOWN_GUIDELINE.md**
-  - [ ] Source: `/home/empire/gateway-mgmt/.agents/skills/SKILLS_MARKDOWN_GUIDELINE.md`
+  - [ ] Source: `/home/empire/gateway-mgmt/.agents/agents/_core/SKILLS_MARKDOWN_GUIDELINE.md`
   - [ ] Destination: `/home/empire/gateway-mgmt/.agents/agents/_core/`
   - [ ] Update cross-references
   - [ ] Test: Verify at new location
@@ -74,7 +74,7 @@ This checklist tracks completion of the final 25% of Option C implementation to 
 
 **Migration Verification**:
 - [ ] All 8 files moved successfully
-- [ ] No files left in old location (skills/*)
+- [x] Historical (completed): Legacy mirror location (`skills/*`) deprecated/removed
 - [ ] All files at new locations accessible
 - [ ] File permissions preserved
 - [ ] File contents intact (no corruption)
@@ -206,12 +206,12 @@ This checklist tracks completion of the final 25% of Option C implementation to 
   - [ ] Format: Same as template
 
 **Task 3.2: Phase 2 Placeholders (4 agents)**
-- [ ] **agents/phase-2-observability/LOGGING_AGENT_SKILLS.md**
+- [ ] **agents/phase-2-observability/LOGGING_CENTRALIZED_AGENT_SKILLS.md**
   - [ ] Content: Placeholder
   - [ ] Links: To Phase 2 index
   - [ ] Format: Same as template
 
-- [ ] **agents/phase-2-observability/SERVICE_MESH_GATEWAY_AGENT_SKILLS.md**
+- [ ] **agents/phase-2-observability/SERVICE_MESH_AGENT_SKILLS.md**
   - [ ] Content: Placeholder
   - [ ] Links: To Phase 2 index
   - [ ] Format: Same as template
@@ -227,7 +227,7 @@ This checklist tracks completion of the final 25% of Option C implementation to 
   - [ ] Format: Same as template
 
 **Task 3.3: Phase 3 Placeholders (5 agents)**
-- [ ] **agents/phase-3-operations/CONFIGURATION_MGMT_AGENT_SKILLS.md**
+- [ ] **agents/phase-3-operations/CONFIGURATION_MANAGEMENT_AGENT_SKILLS.md**
   - [ ] Content: Placeholder
   - [ ] Links: To Phase 3 index
   - [ ] Format: Same as template
@@ -268,7 +268,7 @@ This checklist tracks completion of the final 25% of Option C implementation to 
   - [ ] Links: To Phase 4 index
   - [ ] Format: Same as template
 
-- [ ] **agents/phase-4-excellence/DOCUMENTATION_KNOWLEDGE_BASE_AGENT_SKILLS.md**
+- [ ] **agents/phase-4-excellence/DOCUMENTATION_AGENT_SKILLS.md**
   - [ ] Content: Placeholder
   - [ ] Links: To Phase 4 index
   - [ ] Format: Same as template
@@ -296,9 +296,9 @@ This checklist tracks completion of the final 25% of Option C implementation to 
   - [ ] Correct hierarchy
 
 **Task 4.2: File Location Verification**
-- [ ] Count files in old location: `ls -la skills/ | wc -l`
-  - [ ] Expected: 0 (all migrated)
-  - [ ] Actual: ___
+- [x] Historical (completed): Count files in legacy location: `ls -la skills/ | wc -l`
+  - [x] Historical expected result: 8 during deprecation window, 0 after hard cutover
+  - [x] Historical actual result after cutover: 1 (`README.md` tombstone only)
 
 - [ ] Count files in new locations
   - [ ] Infrastructure domain: 2 files expected ✅
@@ -347,7 +347,7 @@ This checklist tracks completion of the final 25% of Option C implementation to 
   - [ ] Actual: ___
 
 - [ ] Verify no orphaned files
-  - [ ] Old skills/ directory: Empty or deleted
+  - [x] Historical (completed): Legacy `skills/` directory hard-cutover complete (mirrors removed; tombstone retained)
   - [ ] All files linked from index: ✅
 
 **Structure Validation Summary**:

@@ -1,5 +1,8 @@
 # AUDIT & VALIDATION AGENT SKILLS
 
+> ⚠️ **Deprecated mirror file**.
+> Canonical source: `.agents/agents/operational/quality/AUDIT_VALIDATION_AGENT_SKILLS.md`. Update and reference the canonical file only.
+
 **Agent Purpose:**  
 Ensure all agent skills files maintain structural completeness, technical consistency, bidirectional cross-channel coordination, and compliance with the SKILLS_MARKDOWN_GUIDELINE. This agent proactively validates new agents during creation and conducts periodic audits of existing agents to prevent documentation drift, coordination gaps, and operational blind spots.
 
@@ -376,7 +379,7 @@ The audit agent validates against a known infrastructure topology:
 **Problem:** New agent skills file created but needs validation before deployment to ensure it won't create operational blind spots or coordination gaps.
 
 **Steps:**
-1. Receive new agent skills file location/name (e.g., `/home/empire/gateway-mgmt/.agents/skills/STORAGE_AGENT_SKILLS.md`)
+1. Receive new agent skills file location/name (e.g., `/home/empire/gateway-mgmt/.agents/agents/phase-1-foundation/STORAGE_BACKUP_AGENT_SKILLS.md`)
 2. Verify file exists and is readable
 3. Check structural completeness: Overview present (≥100 words), Architecture Context present, Skill Areas present (5-9 expected), Diagnostic Workflows present (3-6 expected), Validation Checklist present (12+ items), Reference Implementation present
 4. Count skill areas, confirm agent type-appropriate (5-9 range acceptable)

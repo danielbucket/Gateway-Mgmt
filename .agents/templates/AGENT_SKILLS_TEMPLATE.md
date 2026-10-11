@@ -406,8 +406,8 @@ Example:
 
 ## References & Links
 
-- [AGENT_ROADMAP.md](../../AGENT_ROADMAP.md) - Implementation timeline
-- [AGENT_ECOSYSTEM_INDEX.md](../../AGENT_ECOSYSTEM_INDEX.md) - All agents
+- [AGENT_ROADMAP.md](../AGENT_ROADMAP.md) - Implementation timeline
+- [AGENT_ECOSYSTEM_INDEX.md](../AGENT_ECOSYSTEM_INDEX.md) - All agents
 - [Phase X Overview](../phase-X-name/index.md) - Phase details
 - [Related Agent Skills](./[RELATED]_AGENT_SKILLS.md) - Integration guide
 

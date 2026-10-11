@@ -1,5 +1,8 @@
 # AI Agent Skills Markdown Guideline
 
+> ⚠️ **Deprecated mirror file**.
+> Canonical source: `.agents/agents/_core/SKILLS_MARKDOWN_GUIDELINE.md`. Update and reference the canonical file only.
+
 ## Purpose
 
 This guideline provides a standard structure and format for writing AI agent skills markdown files. These files define what capabilities an agent has, how to use them, constraints, and example workflows. A well-written skills file enables AI agents to understand their responsibilities and operate effectively within defined boundaries.

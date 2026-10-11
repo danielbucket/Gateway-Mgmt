@@ -69,7 +69,7 @@ Both agents must be consulted for:
 
 - [Network Infrastructure Agent Skills](./NETWORK_INFRASTRUCTURE_AGENT_SKILLS.md)
 - [Network Agent Skills](./NETWORK_AGENT_SKILLS.md)
-- [Master Index](../../AGENT_ECOSYSTEM_INDEX.md)
+- [Master Index](../../../AGENT_ECOSYSTEM_INDEX.md)
 - [Phase 1 - Security & Secrets](../../phase-1-foundation/index.md) (depends on)
 - [Phase 2 - Service Mesh](../../phase-2-observability/index.md) (depends on)
 - [Phase 3 - Transmission Protocol](../../phase-3-operations/index.md) (depends on)

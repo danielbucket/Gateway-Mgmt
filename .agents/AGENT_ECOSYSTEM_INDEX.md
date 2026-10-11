@@ -77,8 +77,8 @@
 
 | # | Agent | Location | Week | Skills | Validation | Links |
 |---|-------|----------|------|--------|------------|-------|
-| P2-01 | Logging & Centralized Logging Agent | `agents/phase-2-observability/` | 4 | 8 | ~20 | [Template](./agents/phase-2-observability/LOGGING_AGENT_SKILLS.md) \| [Index](./agents/phase-2-observability/index.md) |
-| P2-02 | Service Mesh & API Gateway Agent | `agents/phase-2-observability/` | 5 | 8 | ~22 | [Template](./agents/phase-2-observability/SERVICE_MESH_GATEWAY_AGENT_SKILLS.md) \| [Index](./agents/phase-2-observability/index.md) |
+| P2-01 | Logging & Centralized Logging Agent | `agents/phase-2-observability/` | 4 | 8 | ~20 | [Template](./agents/phase-2-observability/LOGGING_CENTRALIZED_AGENT_SKILLS.md) \| [Index](./agents/phase-2-observability/index.md) |
+| P2-02 | Service Mesh & API Gateway Agent | `agents/phase-2-observability/` | 5 | 8 | ~22 | [Template](./agents/phase-2-observability/SERVICE_MESH_AGENT_SKILLS.md) \| [Index](./agents/phase-2-observability/index.md) |
 | P2-03 | Virtual Jumpbox Agent | `agents/phase-2-observability/` | 5-6 | 7 | ~24 | [Template](./agents/phase-2-observability/JUMPBOX_AGENT_SKILLS.md) \| [Index](./agents/phase-2-observability/index.md) |
 | P2-04 | Pi-hole Agent | `agents/phase-2-observability/` | 6 | 7 | ~22 | [Template](./agents/phase-2-observability/PIHOLE_AGENT_SKILLS.md) \| [Index](./agents/phase-2-observability/index.md) |
 
@@ -98,11 +98,11 @@
 
 | # | Agent | Location | Week | Skills | Validation | Links |
 |---|-------|----------|------|--------|------------|-------|
-| P3-01 | Configuration Management Agent | `agents/phase-3-operations/` | 7 | 6 | ~16 | [Template](./agents/phase-3-operations/CONFIGURATION_AGENT_SKILLS.md) \| [Index](./agents/phase-3-operations/index.md) |
+| P3-01 | Configuration Management Agent | `agents/phase-3-operations/` | 7 | 6 | ~16 | [Template](./agents/phase-3-operations/CONFIGURATION_MANAGEMENT_AGENT_SKILLS.md) \| [Index](./agents/phase-3-operations/index.md) |
 | P3-02 | Capacity Planning & Scaling Agent | `agents/phase-3-operations/` | 8 | 6 | ~18 | [Template](./agents/phase-3-operations/CAPACITY_PLANNING_AGENT_SKILLS.md) \| [Index](./agents/phase-3-operations/index.md) |
 | P3-03 | Disaster Recovery & Business Continuity Agent | `agents/phase-3-operations/` | 9-10 | 8 | ~24 | [Template](./agents/phase-3-operations/DISASTER_RECOVERY_AGENT_SKILLS.md) \| [Index](./agents/phase-3-operations/index.md) |
 | P3-04 | Transmission Protocol Agent | `agents/phase-3-operations/` | 10 | 7 | ~22 | [Template](./agents/phase-3-operations/TRANSMISSION_PROTOCOL_AGENT_SKILLS.md) \| [Index](./agents/phase-3-operations/index.md) |
-| P3-05 | CI/CD & Deployment Pipeline Agent | `agents/phase-3-operations/` | 11 | 7 | ~20 | [Template](./agents/phase-3-operations/CICD_PIPELINE_AGENT_SKILLS.md) \| [Index](./agents/phase-3-operations/index.md) |
+| P3-05 | CI/CD & Deployment Pipeline Agent | `agents/phase-3-operations/` | 11 | 7 | ~20 | [Template](./agents/phase-3-operations/CICD_DEPLOYMENT_AGENT_SKILLS.md) \| [Index](./agents/phase-3-operations/index.md) |
 
 **Dependencies**: Phase 1, Phase 2, Audit Agent  
 **Acceptance**: All 5 agents complete, deployments automated  
@@ -123,7 +123,7 @@
 | P4-01 | Incident Response & Runbooks Agent | `agents/phase-4-excellence/` | 12 | 6 | ~16 | [Template](./agents/phase-4-excellence/INCIDENT_RESPONSE_AGENT_SKILLS.md) \| [Index](./agents/phase-4-excellence/index.md) |
 | P4-02 | Performance Optimization Agent | `agents/phase-4-excellence/` | 13 | 6 | ~14 | [Template](./agents/phase-4-excellence/PERFORMANCE_OPTIMIZATION_AGENT_SKILLS.md) \| [Index](./agents/phase-4-excellence/index.md) |
 | P4-03 | Cost Optimization Agent | `agents/phase-4-excellence/` | Post-Prod | 6 | ~14 | [Template](./agents/phase-4-excellence/COST_OPTIMIZATION_AGENT_SKILLS.md) \| [Index](./agents/phase-4-excellence/index.md) |
-| P4-04 | Documentation & Knowledge Base Agent | `agents/phase-4-excellence/` | Post-Prod | 6 | ~16 | [Template](./agents/phase-4-excellence/DOCUMENTATION_KNOWLEDGE_AGENT_SKILLS.md) \| [Index](./agents/phase-4-excellence/index.md) |
+| P4-04 | Documentation & Knowledge Base Agent | `agents/phase-4-excellence/` | Post-Prod | 6 | ~16 | [Template](./agents/phase-4-excellence/DOCUMENTATION_AGENT_SKILLS.md) \| [Index](./agents/phase-4-excellence/index.md) |
 
 **Dependencies**: All previous phases  
 **Acceptance**: All 4 agents complete, continuous improvement framework operational  

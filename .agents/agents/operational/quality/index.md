@@ -120,10 +120,10 @@ Example issues:
 ## Quick Links
 
 - [Audit & Validation Agent Skills](./AUDIT_VALIDATION_AGENT_SKILLS.md)
-- [Master Index](../../AGENT_ECOSYSTEM_INDEX.md)
-- [Skills Markdown Guideline](./../_core/SKILLS_MARKDOWN_GUIDELINE.md) (standards)
-- [Pre-deployment Checklist](../../procedures/deployment/pre-deployment-checklist.md)
-- [All Agent Templates](../../templates/)
+- [Master Index](../../../AGENT_ECOSYSTEM_INDEX.md)
+- [Skills Markdown Guideline](../../_core/SKILLS_MARKDOWN_GUIDELINE.md) (standards)
+- [Deployment Procedures](../../../procedures/DEPLOYMENT_PROCEDURES.md)
+- [All Agent Templates](../../../templates/)
 
 ---
 

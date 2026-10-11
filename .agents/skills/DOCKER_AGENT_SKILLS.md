@@ -1,5 +1,8 @@
 # Docker Swarm Agent Skills
 
+> ⚠️ **Deprecated mirror file**.
+> Canonical source: `.agents/agents/operational/services/DOCKER_AGENT_SKILLS.md`. Update and reference the canonical file only.
+
 ## Overview
 This document defines the capabilities and responsibilities of the Docker Swarm Agent for the gateway-mgmt infrastructure. The agent manages a three-node Docker Swarm cluster (1 manager, 2 workers) across on-premise Linux machines, handling container orchestration, service deployment, development/production workloads, CI/CD pipeline execution, and secure jumpbox access. The agent coordinates with the Network Management Agent for firewall rules, routing, and DNS integration.
 

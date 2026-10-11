@@ -1,5 +1,8 @@
 # Samba Agent Skills
 
+> ⚠️ **Deprecated mirror file**.
+> Canonical source: `.agents/agents/operational/services/SAMBA_AGENT_SKILLS.md`. Update and reference the canonical file only.
+
 ## Overview
 This document defines the capabilities and responsibilities of the Samba Agent for the gateway-mgmt infrastructure. The agent manages network file sharing across the local mesh network via Samba/SMB protocol, handling share creation and management, user authentication and access control, metrics collection for Prometheus monitoring, troubleshooting SMB connectivity issues, and backup coordination. The agent runs two containerized Samba servers (one on each Docker node at 24.204.72.65 and 24.204.72.66) providing three primary shares (media, backups, miscellanea) accessible only from the internal network (24.204.72.64/26) via WireGuard peers and internal Docker containers. The agent coordinates with Network Agent for firewall rules, Docker Agent for container orchestration, Prometheus Agent for metrics collection and alerting, and WireGuard Agent for secure peer access via jumpbox tunneling.
 

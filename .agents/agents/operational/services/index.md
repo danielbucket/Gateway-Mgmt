@@ -102,7 +102,7 @@ The Services domain handles all container and application-level services:
 - [Docker Agent Skills](./DOCKER_AGENT_SKILLS.md)
 - [Samba Agent Skills](./SAMBA_AGENT_SKILLS.md)
 - [WireGuard Agent Skills](./WIREGUARD_AGENT_SKILLS.md)
-- [Master Index](../../AGENT_ECOSYSTEM_INDEX.md)
+- [Master Index](../../../AGENT_ECOSYSTEM_INDEX.md)
 - [Infrastructure Domain](../infrastructure/index.md) (depends on)
 - [Observability Domain](../observability/index.md) (feeds into)
 - [Phase 1 - Security](../../phase-1-foundation/index.md) (depends on)

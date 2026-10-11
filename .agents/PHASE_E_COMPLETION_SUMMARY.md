@@ -103,8 +103,8 @@ Successfully completed Phase E (Directory Restructuring) implementing **75% of O
 │   └── docs/ ................................ Additional documentation
 │       └── [Planned - architecture, glossary, FAQ]
 │
-└── skills/ ................................. Legacy location (8 files present)
-    └── [To be migrated during file consolidation phase]
+└── skills/ ................................. Retired path tombstone
+   └── README.md (redirects to canonical files under agents/operational/* and agents/_core/)
 ```
 
 ---

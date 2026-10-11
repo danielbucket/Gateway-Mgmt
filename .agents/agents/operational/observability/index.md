@@ -104,7 +104,7 @@ Prometheus Agent depends on / integrates with:
 ## Quick Links
 
 - [Prometheus Agent Skills](./PROMETHEUS_AGENT_SKILLS.md)
-- [Master Index](../../AGENT_ECOSYSTEM_INDEX.md)
+- [Master Index](../../../AGENT_ECOSYSTEM_INDEX.md)
 - [Infrastructure Domain](../infrastructure/index.md) (provides metrics)
 - [Services Domain](../services/index.md) (provides metrics)
 - [Phase 2 - Logging](../../phase-2-observability/index.md) (coordinates with)
